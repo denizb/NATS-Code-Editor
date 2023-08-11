@@ -1,2 +1,2 @@
 # NATS-Code-Editor
-Enhance the code editor in NATS for smarty templates with Ace Editor
+Google Chrome Extension to enhance the code editor in TMM NATS smarty templates editor with Ace
