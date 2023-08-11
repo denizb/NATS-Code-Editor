@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Smarty Code Editor",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://carnalcash.com/*"], // Replace with your domain
+      "js": ["content_script.js"]
+    }
+  ]
+}
